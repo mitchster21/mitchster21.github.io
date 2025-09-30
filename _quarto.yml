@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "Your Name - Data Science Portfolio"
+  description: "A showcase of my data science projects and learning journey"
+  
+  navbar:
+    background: primary
+    left:
+      - text: "Random Forest vs Logistic Regression"
+        href: Blog.html
+      - text: "About Me"
+        href: about.html
+      - text: "Projects"
+        menu:
+          - text: "All Projects"
+            href: index.html
+          
+    right:
+      - icon: github
+        href: https://github.com/your-username
+      - icon: linkedin
+        href: https://linkedin.com/in/your-profile
+
+  sidebar:
+    - title: "Projects"
+      contents:
+        - index.html
+        - eda.html
+        - data-acquisition.html
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    css: styles.css
