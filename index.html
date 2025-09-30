@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2025-09-29">
 
-<title>Random Forest vs Logistic Regression: Predicting Game Outcomes – Your Name - Data Science Portfolio</title>
+<title>Random Forest vs Logistic Regression: Predicting Game Outcomes – Mitchell Heaton - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,7 +122,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Your Name - Data Science Portfolio</span>
+    <span class="navbar-title">Mitchell Heaton - Data Science Portfolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -130,35 +130,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./Blog.html"> 
-<span class="menu-text">Random Forest vs Logistic Regression</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About Me</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
-        <li>
-    <a class="dropdown-item" href="./index.html">
- <span class="dropdown-text">All Projects</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/your-username"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/mitchster21"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/your-profile"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/mitchell-heaton-778354333"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -189,12 +168,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
- <span class="menu-text">eda.html</span>
-  </li>
-        <li class="sidebar-item">
- <span class="menu-text">data-acquisition.html</span>
-  </li>
     </ul>
     </div>
 </nav>
@@ -267,7 +240,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="simulating-game-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="simulating-game-outcomes">Simulating Game Outcomes</h2>
 <p>To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on <strong>nonlinear effects</strong> and <strong>interactions</strong>, which are easier for random forests to capture than logistic regression.</p>
-<div id="a08b7c8a" class="cell" data-execution_count="1">
+<div id="e8f51ea0" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -310,37 +283,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <th data-quarto-table-cell-role="th">0</th>
-<td>1</td>
-<td>0.252573</td>
-<td>-0.090699</td>
-<td>1</td>
+<td>0</td>
+<td>-0.751062</td>
+<td>-1.892568</td>
+<td>0</td>
 </tr>
 <tr class="even">
 <th data-quarto-table-cell-role="th">1</th>
 <td>1</td>
-<td>1.377695</td>
-<td>0.811464</td>
+<td>-0.639119</td>
+<td>0.333151</td>
 <td>1</td>
 </tr>
 <tr class="odd">
 <th data-quarto-table-cell-role="th">2</th>
 <td>1</td>
-<td>0.767892</td>
-<td>1.101202</td>
+<td>0.142086</td>
+<td>-0.198534</td>
 <td>0</td>
 </tr>
 <tr class="even">
 <th data-quarto-table-cell-role="th">3</th>
 <td>1</td>
-<td>-1.382741</td>
-<td>-0.629119</td>
+<td>-0.102699</td>
+<td>-1.113040</td>
 <td>0</td>
 </tr>
 <tr class="odd">
 <th data-quarto-table-cell-role="th">4</th>
-<td>1</td>
-<td>-1.483039</td>
-<td>0.975217</td>
+<td>0</td>
+<td>0.967439</td>
+<td>-0.900677</td>
 <td>0</td>
 </tr>
 </tbody>
@@ -379,7 +352,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="compare-results">Compare Results</h2>
 <p>We train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture <strong>nonlinear effects and interactions</strong>.</p>
 <p><img src="results/images/accuracy_comparison.png" class="img-fluid"></p>
-<div id="4c517e84" class="cell" data-execution_count="2">
+<div id="d14f3c55" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
