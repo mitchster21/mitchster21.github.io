@@ -1,0 +1,192 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "Description: Pick a dataset and explore it to discover insights and answer questions.\n\n\n\nDescription: Find an interesting data source, collect the data, and prepare it for analysis.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "crumbs": [
+      "Projects Overview"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#all-projects",
+    "href": "projects/index.html#all-projects",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "Description: Pick a dataset and explore it to discover insights and answer questions.\n\n\n\nDescription: Find an interesting data source, collect the data, and prepare it for analysis.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "crumbs": [
+      "Projects Overview"
+    ]
+  },
+  {
+    "objectID": "projects/eda.html",
+    "href": "projects/eda.html",
+    "title": "EDA Project",
+    "section": "",
+    "text": "This is coming down the pipeline. Check again later.",
+    "crumbs": [
+      "EDA Project"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+  },
+  {
+    "objectID": "about.html#skills-interests",
+    "href": "about.html#skills-interests",
+    "title": "About Me",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+  },
+  {
+    "objectID": "projects/data-acquisition.html",
+    "href": "projects/data-acquisition.html",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "This is coming down the pipeline. Check again later.",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/final-project.html",
+    "href": "projects/final-project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "This is coming down the pipeline. Check again later.",
+    "crumbs": [
+      "Final Project"
+    ]
+  },
+  {
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Goal: Compare a simple, interpretable model (logistic regression) with a more flexible, complex model (random forest) for predicting whether the home team wins. We’ll walk through data simulation, training, evaluation, and interpretation.\n\n\n\nTo keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling.\n\n\n\n\nTo demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n1\n2.263983\n-0.223096\n1\n\n\n1\n1\n0.275613\n-0.409468\n0\n\n\n2\n0\n0.948838\n-0.338505\n1\n\n\n3\n1\n0.658653\n0.402507\n0\n\n\n4\n1\n1.036776\n-1.182887\n0\n\n\n\n\n\n\n\n\n\n\nLogistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:\n\n\n\n\n\nRandom forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:\n\n\n\n\n\n\nWe train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns\n\n\n\n\n\n\n\n\n\n\n\n\nLogistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions."
+  },
+  {
+    "objectID": "Blog.html#why-this-matters",
+    "href": "Blog.html#why-this-matters",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Sports analytics is a great sandbox: models are small, results are easy to explain, and students learn the tradeoffs between interpretability and predictive power."
+  },
+  {
+    "objectID": "Blog.html#what-youll-need",
+    "href": "Blog.html#what-youll-need",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Python 3.8+ and the packages: numpy, pandas, scikit-learn, matplotlib, seaborn.\nThe script compare_models.py in this repo.\n\n\n\npython -m venv venv\nsource venv/bin/activate\npip install numpy pandas scikit-learn matplotlib seaborn\npython compare_models.py\n\n\n\n\n:::{#quarto-navigation-envelope .hidden}\n[Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl\"}\n[Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXItdGl0bGU=\"}\n[Home]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==\"}\n[/index.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=\"}\n[About Me]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6QWJvdXQgTWU=\"}\n[/about.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=\"}\n[Projects]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6UHJvamVjdHM=\"}\n[All Projects]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6QWxsIFByb2plY3Rz\"}\n[/projects/index.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3Byb2plY3RzL2luZGV4Lmh0bWw=\"}\n[---]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6LS0t\"}\n[Exploratory Data Analysis]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6RXhwbG9yYXRvcnkgRGF0YSBBbmFseXNpcw==\"}\n[/projects/eda.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3Byb2plY3RzL2VkYS5odG1s\"}\n[Data Acquisition]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6RGF0YSBBY3F1aXNpdGlvbg==\"}\n[/projects/data-acquisition.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3Byb2plY3RzL2RhdGEtYWNxdWlzaXRpb24uaHRtbA==\"}\n[Final Project]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6RmluYWwgUHJvamVjdA==\"}\n[/projects/final-project.html]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3Byb2plY3RzL2ZpbmFsLXByb2plY3QuaHRtbA==\"}\n[https://github.com/your-username]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tL3lvdXItdXNlcm5hbWU=\"}\n[https://linkedin.com/in/your-profile]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9saW5rZWRpbi5jb20vaW4veW91ci1wcm9maWxl\"}\n:::\n\n\n\n:::{#quarto-meta-markdown .hidden}\n[Random Forest vs Logistic Regression: Predicting Game Outcomes – Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW1ldGF0aXRsZQ==\"}\n[Random Forest vs Logistic Regression: Predicting Game Outcomes – Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=\"}\n[Random Forest vs Logistic Regression: Predicting Game Outcomes – Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW9nY2FyZHRpdGxl\"}\n[Your Name - Data Science Portfolio]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW1ldGFzaXRlbmFtZQ==\"}\n[A showcase of my data science projects and learning journey]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==\"}\n[A showcase of my data science projects and learning journey]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW9nY2FyZGRkZXNj\"}\n:::\n\n\n\n\n&lt;!-- --&gt;\n\n::: {.quarto-embedded-source-code}\n```````````````````{.markdown shortcodes=\"false\"}\n---\ntitle: \"Random Forest vs Logistic Regression: Predicting Game Outcomes\"\ndate: 2025-09-29\n---\n\n# Random Forest vs Logistic Regression: Predicting Game Outcomes\n\n**Goal.** Show how to compare a simple model (logistic regression) to a more complex one (random forest) for predicting whether the home team wins. I’ll walk through data simulation, training, evaluation, and interpretation.\n\n## Why this matters\nSports analytics is a great sandbox: models are small, results are easy to explain, and students learn the tradeoffs between interpretability and predictive power.\n\n## What you'll need\n- Python 3.8+ and the packages: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`.\n- The script `compare_models.py` in this repo.\n\n### Quick install\n```bash\npython -m venv venv\nsource venv/bin/activate\npip install numpy pandas scikit-learn matplotlib seaborn\npython compare_models.py\n:::"
+  },
+  {
+    "objectID": "Blog.html#introduction-the-dataset",
+    "href": "Blog.html#introduction-the-dataset",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "To keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling."
+  },
+  {
+    "objectID": "Blog.html#simple-model-logistic-regression",
+    "href": "Blog.html#simple-model-logistic-regression",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Logistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:"
+  },
+  {
+    "objectID": "Blog.html#complex-model-random-forest",
+    "href": "Blog.html#complex-model-random-forest",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Random forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:"
+  },
+  {
+    "objectID": "Blog.html#compare-results",
+    "href": "Blog.html#compare-results",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "We train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns"
+  },
+  {
+    "objectID": "Blog.html#conclusion",
+    "href": "Blog.html#conclusion",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Logistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions."
+  },
+  {
+    "objectID": "Blog.html#introduction-simulating-game-outcomes",
+    "href": "Blog.html#introduction-simulating-game-outcomes",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n0\n-0.578090\n0.795952\n0\n\n\n1\n1\n-0.146360\n1.103811\n0\n\n\n2\n1\n-0.905200\n-1.018001\n0\n\n\n3\n0\n-0.930088\n0.342445\n0\n\n\n4\n1\n1.010915\n-0.799579\n1"
+  },
+  {
+    "objectID": "Blog.html#simulating-game-outcomes",
+    "href": "Blog.html#simulating-game-outcomes",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n1\n2.263983\n-0.223096\n1\n\n\n1\n1\n0.275613\n-0.409468\n0\n\n\n2\n0\n0.948838\n-0.338505\n1\n\n\n3\n1\n0.658653\n0.402507\n0\n\n\n4\n1\n1.036776\n-1.182887\n0"
+  }
+]
