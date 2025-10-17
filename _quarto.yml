@@ -20,6 +20,10 @@ website:
     - title: "Projects"
       contents:
         - index.html
+        - text: "About Me"
+          href: about.md
+        - text: "Comparing Models Tutorial"
+          href: tutorial.qmd
 
 format:
   html:

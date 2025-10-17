@@ -4,49 +4,127 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "Mitchell Heaton",
+    "crumbs": [
+      "About Me"
+    ]
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nB.S. in Statistics – BYU, Expected Spring 2027\n\nMinors: Business and Mathematics\n\nRelevant Coursework: Regression Analysis, Statistical Methods, Data Mining, Machine Learning, Probability, Python Programming, Database Systems",
+    "crumbs": [
+      "About Me"
+    ]
   },
   {
-    "objectID": "about.html#skills-interests",
-    "href": "about.html#skills-interests",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
     "title": "About Me",
-    "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
+    "section": "💼 Experience",
+    "text": "💼 Experience\n\nData Analyst / Data Engineer (Student Projects)\n\nDesigned and maintained AWS data pipelines using S3, Glue, and Athena to automate ingestion of podcast and social media metrics.\n\nBuilt regression and similarity models using Python (Pandas, Scikit-learn, SentenceTransformers) to predict audience engagement and watch time.\n\nBYUtv Movie Recommendation Project\n\nDeveloped embedding-based recommendation systems using IMDb and BYUtv data.\n\nIntegrated NLP models to identify family-friendly movie similarities while filtering out inappropriate content.\n\nAcademic Research Projects\n\nExplored logistic regression and shrinkage methods for behavioral data analysis using R and Python.",
+    "crumbs": [
+      "About Me"
+    ]
   },
   {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
     "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+    "section": "⚙️ Skills",
+    "text": "⚙️ Skills\n\nTechnical\n\nProgramming: Python, SQL, C++\n\nData Analysis: Pandas, NumPy, Spark, AWS Glue, Athena\n\nMachine Learning: Scikit-learn, TensorFlow, PyTorch, SentenceTransformers\n\nVisualization: Matplotlib, Seaborn, Tableau\n\nTools: Jupyter Notebooks, Git/GitHub, AWS S3, VS Code\n\n\n\nSoft Skills\n\nProblem-solving and analytical thinking\n\nClear communication of technical concepts\n\nCollaboration and teamwork\n\nCuriosity and continuous learning",
+    "crumbs": [
+      "About Me"
+    ]
   },
   {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
     "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "section": "🌎 Get to Know Me",
+    "text": "🌎 Get to Know Me\nOutside of data and analytics, I love exploring topics in finance, statistics, and technology.\nSome fun facts about me: - I enjoy learning about machine learning models and how they connect to real-world behavior.\n- I like working on side projects that mix engineering and data science.\n- I’m an advocate for clean, well-documented code and reproducible research.\n- When I’m not coding, I enjoy spending time outdoors, listening to podcasts, and reading about markets and AI.\n\nThis page serves as both a personal introduction and a showcase of my academic and professional journey in data science.",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "tutorial.html",
+    "href": "tutorial.html",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Goal: Compare a simple, interpretable model (logistic regression) with a more flexible, complex model (random forest) for predicting whether the home team wins. We’ll walk through data simulation, training, evaluation, and interpretation.\n\n\n\nTo keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling.\n\n\n\n\nTo demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n0\n-1.063581\n-0.891021\n0\n\n\n1\n1\n0.749087\n0.984176\n1\n\n\n2\n0\n-0.242325\n0.381300\n0\n\n\n3\n0\n0.095146\n0.265731\n0\n\n\n4\n1\n-0.541020\n0.917234\n0\n\n\n\n\n\n\n\n\n\n\nLogistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:\n\n\n\n\n\nRandom forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:\n\n\n\n\n\n\nWe train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns\n\n\n\n\n\n\n\n\n\n\n\n\nLogistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions.",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#introduction-the-dataset",
+    "href": "tutorial.html#introduction-the-dataset",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "To keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling.",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#simulating-game-outcomes",
+    "href": "tutorial.html#simulating-game-outcomes",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n0\n-1.063581\n-0.891021\n0\n\n\n1\n1\n0.749087\n0.984176\n1\n\n\n2\n0\n-0.242325\n0.381300\n0\n\n\n3\n0\n0.095146\n0.265731\n0\n\n\n4\n1\n-0.541020\n0.917234\n0",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#simple-model-logistic-regression",
+    "href": "tutorial.html#simple-model-logistic-regression",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Logistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#complex-model-random-forest",
+    "href": "tutorial.html#complex-model-random-forest",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Random forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#compare-results",
+    "href": "tutorial.html#compare-results",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "We train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#conclusion",
+    "href": "tutorial.html#conclusion",
+    "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
+    "section": "",
+    "text": "Logistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions.",
+    "crumbs": [
+      "Comparing Models Tutorial"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
     "section": "",
-    "text": "Goal: Compare a simple, interpretable model (logistic regression) with a more flexible, complex model (random forest) for predicting whether the home team wins. We’ll walk through data simulation, training, evaluation, and interpretation.\n\n\n\nTo keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling.\n\n\n\n\nTo demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n0\n-0.751062\n-1.892568\n0\n\n\n1\n1\n-0.639119\n0.333151\n1\n\n\n2\n1\n0.142086\n-0.198534\n0\n\n\n3\n1\n-0.102699\n-1.113040\n0\n\n\n4\n0\n0.967439\n-0.900677\n0\n\n\n\n\n\n\n\n\n\n\nLogistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:\n\n\n\n\n\nRandom forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:\n\n\n\n\n\n\nWe train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns\n\n\n\n\n\n\n\n\n\n\n\n\nLogistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions.",
+    "text": "Goal: Compare a simple, interpretable model (logistic regression) with a more flexible, complex model (random forest) for predicting whether the home team wins. We’ll walk through data simulation, training, evaluation, and interpretation.\n\n\n\nTo keep things simple, we simulate a small sports dataset in a separate Python script compare_models.py. Each row represents a matchup with:\n\nhome_score: points scored by the home team\n\naway_score: points scored by the away team\n\nhome_advantage: a feature that encodes “home-court” advantage\n\ntarget: whether the home team won (1) or lost (0)\n\nThis practice data keeps the focus on model comparison instead of data wrangling.\n\n\n\n\nTo demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n1\n0.326244\n-0.367555\n0\n\n\n1\n1\n1.191265\n-1.269411\n1\n\n\n2\n0\n1.279885\n1.241628\n1\n\n\n3\n1\n-1.270618\n2.087617\n0\n\n\n4\n1\n1.847978\n-0.596254\n1\n\n\n\n\n\n\n\n\n\n\nLogistic regression is the baseline. It assumes a linear relationship between features and the log-odds of winning.\n\nPros: fast, interpretable, coefficients tell us feature impact\n\nCons: can miss nonlinear interactions\n\nHere’s the confusion matrix for Logistic Regression:\n\n\n\n\n\nRandom forest is an ensemble of decision trees. It captures nonlinear patterns and interactions.\n\nPros: higher flexibility, often better accuracy\n\nCons: less interpretable, requires more tuning\n\nHere’s the confusion matrix for Random Forest:\n\n\n\n\n\n\nWe train both logistic regression (LR) and random forest (RF) on the simulated dataset. Logistic regression assumes a linear relationship, while random forest can capture nonlinear effects and interactions.\n\n\n\nCode\nimport json\nimport pandas as pd\nimport os\n\n# Load metrics\nwith open(\"results/metrics.json\") as f:\n    results = json.load(f)\n\ndf = pd.DataFrame([\n    {\"Model\": \"Logistic Regression\", \"Accuracy\": results[\"Logistic Regression\"], \"Notes\": \"Simple, interpretable\"},\n    {\"Model\": \"Random Forest\", \"Accuracy\": results[\"Random Forest\"], \"Notes\": \"Captures nonlinear patterns\"}\n])\n\ndf\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nNotes\n\n\n\n\n0\nLogistic Regression\n0.750000\nSimple, interpretable\n\n\n1\nRandom Forest\n0.771667\nCaptures nonlinear patterns\n\n\n\n\n\n\n\n\n\n\n\n\nLogistic Regression is simple, interpretable, and explains feature impact clearly. It performs well when relationships are mostly linear.\n\nRandom Forest captures nonlinear patterns and feature interactions, giving it a slight edge in predictive accuracy for this dataset.\n\nTakeaway: In sports analytics (and most applied work), there’s a tradeoff: choose logistic regression when you need transparency, and random forest when you want the best predictive performance.\nCall to Action: Try running the same comparison on your own dataset from your favorite sports team. Download their stats, simulate or process relevant features, and test linear vs nonlinear models. See for yourself how model choice can influence your predictions.",
     "crumbs": []
   },
   {
@@ -62,7 +140,7 @@
     "href": "index.html#simulating-game-outcomes",
     "title": "Random Forest vs Logistic Regression: Predicting Game Outcomes",
     "section": "",
-    "text": "To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n0\n-0.751062\n-1.892568\n0\n\n\n1\n1\n-0.639119\n0.333151\n1\n\n\n2\n1\n0.142086\n-0.198534\n0\n\n\n3\n1\n-0.102699\n-1.113040\n0\n\n\n4\n0\n0.967439\n-0.900677\n0",
+    "text": "To demonstrate how logistic regression and random forest handle different data patterns, we simulate a small sports dataset. Outcomes depend on nonlinear effects and interactions, which are easier for random forests to capture than logistic regression.\n\n\nCode\nimport numpy as np\nimport pandas as pd\n\n# Simulate a simple matchup dataset\nn_games = 2000\nhome = np.random.binomial(1, 0.5, n_games)\nstrength_diff = np.random.normal(0, 1, n_games)\nrest_diff = np.random.normal(0, 1, n_games)\n\n# Outcome depends on nonlinear interactions\nlin = 1.2 * home * strength_diff - 0.7 * rest_diff**2 + 0.5 * strength_diff**3\np_home_win = 1 / (1 + np.exp(-lin))\ny = np.random.binomial(1, p_home_win)\n\ndf = pd.DataFrame({\n    \"home\": home,\n    \"strength_diff\": strength_diff,\n    \"rest_diff\": rest_diff,\n    \"home_win\": y\n})\n\ndf.head()\n\n\n\n\n\n\n\n\n\nhome\nstrength_diff\nrest_diff\nhome_win\n\n\n\n\n0\n1\n0.326244\n-0.367555\n0\n\n\n1\n1\n1.191265\n-1.269411\n1\n\n\n2\n0\n1.279885\n1.241628\n1\n\n\n3\n1\n-1.270618\n2.087617\n0\n\n\n4\n1\n1.847978\n-0.596254\n1",
     "crumbs": []
   },
   {

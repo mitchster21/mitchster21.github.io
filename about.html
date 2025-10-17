@@ -108,7 +108,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -143,25 +143,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About Me</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">About Me</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tutorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Comparing Models Tutorial</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#skills-interests" id="toc-skills-interests" class="nav-link" data-scroll-target="#skills-interests">Skills &amp; Interests</a>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
   <ul class="collapse">
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#areas-of-interest" id="toc-areas-of-interest" class="nav-link" data-scroll-target="#areas-of-interest">Areas of Interest</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">🎓 Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">💼 Experience</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">⚙️ Skills</a>
+  <ul class="collapse">
+  <li><a href="#technical" id="toc-technical" class="nav-link" data-scroll-target="#technical">Technical</a></li>
+  <li><a href="#soft-skills" id="toc-soft-skills" class="nav-link" data-scroll-target="#soft-skills">Soft Skills</a></li>
   </ul></li>
-  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">Goals</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#get-to-know-me" id="toc-get-to-know-me" class="nav-link" data-scroll-target="#get-to-know-me">🌎 Get to Know Me</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -187,65 +222,94 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Write a brief introduction about yourself here. Include:</p>
-<ul>
-<li>Your academic background</li>
-<li>Your interest in data science</li>
-<li>Your career goals</li>
-<li>Any relevant experience or projects</li>
-</ul>
-</section>
+<div class="quarto-figure quarto-figure-center" style="border-radius: 50%;">
+<figure class="figure">
+<p><img src="headshot.jpg" class="img-fluid figure-img" width="180"></p>
+<figcaption>Mitchell Heaton</figcaption>
+</figure>
+</div>
+<section id="about-me" class="level1">
+<h1>About Me</h1>
+<p>Hi, I’m <strong>Mitchell Heaton</strong>, a data analyst and aspiring data scientist passionate about combining <strong>statistics</strong>, <strong>machine learning</strong>, and <strong>engineering</strong> to solve real-world problems. I’m especially interested in <strong>quantitative finance</strong> and <strong>predictive modeling</strong>, where I can use analytical tools to turn data into decisions.</p>
+<hr>
 <section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
+<h2 class="anchored" data-anchor-id="education">🎓 Education</h2>
 <ul>
-<li><strong>[Your Degree]</strong> - [University Name], [Year]</li>
-<li><strong>Relevant Coursework</strong>: Statistics, Data Analysis, Programming, etc.</li>
-</ul>
-</section>
-<section id="skills-interests" class="level2">
-<h2 class="anchored" data-anchor-id="skills-interests">Skills &amp; Interests</h2>
-<section id="technical-skills" class="level3">
-<h3 class="anchored" data-anchor-id="technical-skills">Technical Skills</h3>
+<li><strong>B.S. in Statistics</strong> – BYU, <em>Expected Spring 2027</em>
 <ul>
-<li><strong>Programming</strong>: Python</li>
-<li><strong>Data Analysis</strong>: Pandas, NumPy</li>
-<li><strong>Visualization</strong>: Matplotlib, Seaborn</li>
-<li><strong>Machine Learning</strong>: Scikit-learn</li>
-<li><strong>Tools</strong>: Jupyter Notebooks, Git/GitHub</li>
-</ul>
-</section>
-<section id="areas-of-interest" class="level3">
-<h3 class="anchored" data-anchor-id="areas-of-interest">Areas of Interest</h3>
-<ul>
-<li>[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]</li>
-<li>[Other areas you’re curious about]</li>
-</ul>
-</section>
-</section>
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<p>Describe what you hope to achieve through your data science journey:</p>
-<ul>
-<li>Short-term learning objectives</li>
-<li>Long-term career aspirations</li>
-<li>Types of problems you want to solve</li>
-</ul>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<ul>
-<li><strong>Email</strong>: your.email@example.com</li>
-<li><strong>GitHub</strong>: <a href="https://github.com/your-username">github.com/your-username</a></li>
-<li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></li>
+<li><strong>Minors:</strong> Business and Mathematics<br>
+</li>
+<li><strong>Relevant Coursework:</strong> Regression Analysis, Statistical Methods, Data Mining, Machine Learning, Probability, Python Programming, Database Systems</li>
+</ul></li>
 </ul>
 <hr>
-<p><em>This portfolio showcases my learning progress and projects completed during my data science studies.</em></p>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">💼 Experience</h2>
+<ul>
+<li><strong>Data Analyst / Data Engineer (Student Projects)</strong>
+<ul>
+<li>Designed and maintained <strong>AWS data pipelines</strong> using S3, Glue, and Athena to automate ingestion of podcast and social media metrics.<br>
+</li>
+<li>Built <strong>regression and similarity models</strong> using Python (Pandas, Scikit-learn, SentenceTransformers) to predict audience engagement and watch time.</li>
+</ul></li>
+<li><strong>BYUtv Movie Recommendation Project</strong>
+<ul>
+<li>Developed <strong>embedding-based recommendation systems</strong> using IMDb and BYUtv data.<br>
+</li>
+<li>Integrated NLP models to identify <strong>family-friendly movie similarities</strong> while filtering out inappropriate content.</li>
+</ul></li>
+<li><strong>Academic Research Projects</strong>
+<ul>
+<li>Explored <strong>logistic regression</strong> and <strong>shrinkage methods</strong> for behavioral data analysis using R and Python.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">⚙️ Skills</h2>
+<section id="technical" class="level3">
+<h3 class="anchored" data-anchor-id="technical">Technical</h3>
+<ul>
+<li><strong>Programming:</strong> Python, SQL, C++<br>
+</li>
+<li><strong>Data Analysis:</strong> Pandas, NumPy, Spark, AWS Glue, Athena<br>
+</li>
+<li><strong>Machine Learning:</strong> Scikit-learn, TensorFlow, PyTorch, SentenceTransformers<br>
+</li>
+<li><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau<br>
+</li>
+<li><strong>Tools:</strong> Jupyter Notebooks, Git/GitHub, AWS S3, VS Code</li>
+</ul>
+</section>
+<section id="soft-skills" class="level3">
+<h3 class="anchored" data-anchor-id="soft-skills">Soft Skills</h3>
+<ul>
+<li>Problem-solving and analytical thinking<br>
+</li>
+<li>Clear communication of technical concepts<br>
+</li>
+<li>Collaboration and teamwork<br>
+</li>
+<li>Curiosity and continuous learning</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="get-to-know-me" class="level2">
+<h2 class="anchored" data-anchor-id="get-to-know-me">🌎 Get to Know Me</h2>
+<p>Outside of data and analytics, I love exploring topics in <strong>finance, statistics, and technology</strong>.<br>
+Some fun facts about me: - I enjoy learning about <strong>machine learning models</strong> and how they connect to real-world behavior.<br>
+- I like working on <strong>side projects</strong> that mix engineering and data science.<br>
+- I’m an advocate for <strong>clean, well-documented code</strong> and reproducible research.<br>
+- When I’m not coding, I enjoy spending time outdoors, listening to podcasts, and reading about markets and AI.</p>
+<hr>
+<p><em>This page serves as both a personal introduction and a showcase of my academic and professional journey in data science.</em></p>
 
 
 <!-- -->
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -704,50 +768,66 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "About Me"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Background</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="al">![Mitchell Heaton](headshot.jpg)</span>{fig-align="center" width="180" style="border-radius: 50%;"}</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Write a brief introduction about yourself here. Include:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># About Me</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Your academic background</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Your interest in data science</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Your career goals</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Any relevant experience or projects</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Education</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Your Degree]** - <span class="co">[</span><span class="ot">University Name</span><span class="co">]</span>, <span class="co">[</span><span class="ot">Year</span><span class="co">]</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Relevant Coursework**: Statistics, Data Analysis, Programming, etc.</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passionate about combining **statistics**, **machine learning**, and **engineering** to solve real-world problems. I’m especially interested in **quantitative finance** and **predictive modeling**, where I can use analytical tools to turn data into decisions.  </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎓 Education</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**B.S. in Statistics** – BYU, *Expected Spring 2027*  </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Minors:** Business and Mathematics  </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Relevant Coursework:** Regression Analysis, Statistical Methods, Data Mining, Machine Learning, Probability, Python Programming, Database Systems  </span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Skills &amp; Interests</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### Technical Skills</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Programming**: Python</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Data Analysis**: Pandas, NumPy</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Visualization**: Matplotlib, Seaborn</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Machine Learning**: Scikit-learn</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tools**: Jupyter Notebooks, Git/GitHub</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### Areas of Interest</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.</span><span class="co">]</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Other areas you're curious about</span><span class="co">]</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">## Goals</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## 💼 Experience</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Data Analyst / Data Engineer (Student Projects)**  </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Designed and maintained **AWS data pipelines** using S3, Glue, and Athena to automate ingestion of podcast and social media metrics.  </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Built **regression and similarity models** using Python (Pandas, Scikit-learn, SentenceTransformers) to predict audience engagement and watch time.  </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**BYUtv Movie Recommendation Project**  </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Developed **embedding-based recommendation systems** using IMDb and BYUtv data.  </span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Integrated NLP models to identify **family-friendly movie similarities** while filtering out inappropriate content.  </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Academic Research Projects**  </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Explored **logistic regression** and **shrinkage methods** for behavioral data analysis using R and Python.  </span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>Describe what you hope to achieve through your data science journey:</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Short-term learning objectives</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Long-term career aspirations</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Types of problems you want to solve</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contact</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Email**: your.email@example.com</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**GitHub**: <span class="co">[</span><span class="ot">github.com/your-username</span><span class="co">](https://github.com/your-username)</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**LinkedIn**: <span class="co">[</span><span class="ot">linkedin.com/in/your-profile</span><span class="co">](https://linkedin.com/in/your-profile)</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>*This portfolio showcases my learning progress and projects completed during my data science studies.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## ⚙️ Skills</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">### Technical</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Programming:** Python, SQL, C++  </span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Data Analysis:** Pandas, NumPy, Spark, AWS Glue, Athena  </span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Machine Learning:** Scikit-learn, TensorFlow, PyTorch, SentenceTransformers  </span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Visualization:** Matplotlib, Seaborn, Tableau  </span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tools:** Jupyter Notebooks, Git/GitHub, AWS S3, VS Code  </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### Soft Skills</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Problem-solving and analytical thinking  </span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Clear communication of technical concepts  </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Collaboration and teamwork  </span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Curiosity and continuous learning  </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🌎 Get to Know Me</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Outside of data and analytics, I love exploring topics in **finance, statistics, and technology**.  </span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>Some fun facts about me:</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I enjoy learning about **machine learning models** and how they connect to real-world behavior.  </span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I like working on **side projects** that mix engineering and data science.  </span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I’m an advocate for **clean, well-documented code** and reproducible research.  </span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>When I’m not coding, I enjoy spending time outdoors, listening to podcasts, and reading about markets and AI.  </span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>*This page serves as both a personal introduction and a showcase of my academic and professional journey in data science.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
