@@ -2,11 +2,13 @@
 title: "About Me"
 ---
 
-![Mitchell Heaton](headshot.jpg){fig-align="center" width="180" style="border-radius: 50%;"}
+<div style="text-align: center;">
+  ![Mitchell Heaton](images/mitchell_headshot.jpeg){width="180" style="border-radius: 50%;"}
+</div>
 
 # About Me
 
-Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passionate about combining **statistics**, **machine learning**, and **engineering** to solve real-world problems. I’m especially interested in **quantitative finance** and **predictive modeling**, where I can use analytical tools to turn data into decisions.  
+Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passionate about combining **statistics** and **machine learning** to solve real-world problems. I’m especially interested in **quantitative finance**, **predictive modeling**, and **sports analytics** where I can use analytical tools to turn data into decisions.  
 
 ---
 
@@ -14,13 +16,13 @@ Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passio
 
 - **B.S. in Statistics** – BYU, *Expected Spring 2027*  
   - **Minors:** Business and Mathematics  
-  - **Relevant Coursework:** Regression Analysis, Statistical Methods, Data Mining, Machine Learning, Probability, Python Programming, Database Systems  
+  - **Relevant Coursework:** Regression Analysis, Statistical Methods, Machine Learning, Probability, Python Programming, Database Systems  
 
 ---
 
 ## 💼 Experience
 
-- **Data Analyst / Data Engineer (Student Projects)**  
+- **Data Analyst / Data Engineer**  
   - Designed and maintained **AWS data pipelines** using S3, Glue, and Athena to automate ingestion of podcast and social media metrics.  
   - Built **regression and similarity models** using Python (Pandas, Scikit-learn, SentenceTransformers) to predict audience engagement and watch time.  
 
@@ -29,18 +31,18 @@ Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passio
   - Integrated NLP models to identify **family-friendly movie similarities** while filtering out inappropriate content.  
 
 - **Academic Research Projects**  
-  - Explored **logistic regression** and **shrinkage methods** for behavioral data analysis using R and Python.  
+  - Explored **logistic regression** and **Predicting LDS Church Attendance** using R and Python.  
 
 ---
 
 ## ⚙️ Skills
 
 ### Technical
-- **Programming:** Python, SQL, C++  
+- **Programming:** Python, SQL, C++
 - **Data Analysis:** Pandas, NumPy, Spark, AWS Glue, Athena  
 - **Machine Learning:** Scikit-learn, TensorFlow, PyTorch, SentenceTransformers  
 - **Visualization:** Matplotlib, Seaborn, Tableau  
-- **Tools:** Jupyter Notebooks, Git/GitHub, AWS S3, VS Code  
+- **Tools:** Jupyter Notebooks, Git/GitHub, AWS S3, VS Code
 
 ### Soft Skills
 - Problem-solving and analytical thinking  
@@ -52,12 +54,11 @@ Hi, I’m **Mitchell Heaton**, a data analyst and aspiring data scientist passio
 
 ## 🌎 Get to Know Me
 
-Outside of data and analytics, I love exploring topics in **finance, statistics, and technology**.  
+Outside of data and analytics, I love exploring topics in **finance, statistics, and sports**.  
 Some fun facts about me:
 - I enjoy learning about **machine learning models** and how they connect to real-world behavior.  
-- I like working on **side projects** that mix engineering and data science.  
-- I’m an advocate for **clean, well-documented code** and reproducible research.  
-- When I’m not coding, I enjoy spending time outdoors, listening to podcasts, and reading about markets and AI.  
+- I like working on **side projects** that mix finance and data science.  
+- I enjoy spending time outdoors, playing sports, watching movies, and hanging out with friends and family.
 
 ---
 

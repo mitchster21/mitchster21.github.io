@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: .
+  output-dir: docs
 
 website:
   title: "Mitchell Heaton - Data Science Portfolio"
@@ -19,7 +19,8 @@ website:
   sidebar:
     - title: "Projects"
       contents:
-        - index.html
+        - text: "Home"
+          href: index.qmd
         - text: "About Me"
           href: about.md
         - text: "Comparing Models Tutorial"
